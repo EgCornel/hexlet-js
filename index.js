@@ -1,3 +1,8 @@
 import _ from "lodash";
-console.log('Привет, Hexlet!');
-console.log(_.last(['one', 'two']));
+console.log("Привет, Hexlet!");
+console.log(_.last(["one", "two"]));
+
+const fn = (a, b) => {
+  const c = a + b;
+  return c;
+};
